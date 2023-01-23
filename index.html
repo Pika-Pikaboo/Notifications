@@ -6,11 +6,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="styles.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<script type="text/javascript" src="script.js" defer></script>
 		<title>Flash Message</title>
 	</head>
 
 	<body>
-		<div class="container">
+		<div class="container" data-id="1">
 			<div class="left">
 				<i class="fa-solid fa-paperclip"></i>
 			</div>
@@ -19,10 +20,10 @@
 				<p>Great, thanks for joining with us</p>
 			</div>
 			<div class="right">
-				<i class="fa-solid fa-xmark"></i>
+				<i class="fa-solid fa-xmark" data-id="1"></i>
 			</div>
 		</div>
-		<div class="container" style="background: linear-gradient(to right, rgba(8, 67, 50, 1), rgba(8, 67, 50, 0.5), rgba(35, 38, 49, 0.65), rgba(35, 38, 49, 0.55));">
+		<div class="container" data-id="2" style="background: linear-gradient(to right, rgba(8, 67, 50, 1), rgba(8, 67, 50, 0.5), rgba(35, 38, 49, 0.65), rgba(35, 38, 49, 0.55));">
 			<div class="left" style="background-color: #0A4E39;">
 				<i class="fa-solid fa-check"></i>
 			</div>
@@ -31,10 +32,10 @@
 				<p>The changes are saved to database</p>
 			</div>
 			<div class="right">
-				<i class="fa-solid fa-xmark"></i>
+				<i class="fa-solid fa-xmark" data-id="2"></i>
 			</div>
 		</div>
-		<div class="container" style="background: linear-gradient(to right, rgba(71, 3, 5, 1), rgba(71, 3, 5, 0.5), rgba(35, 38, 49, 0.65), rgba(35, 38, 49, 0.55));">
+		<div class="container" data-id="3" style="background: linear-gradient(to right, rgba(71, 3, 5, 1), rgba(71, 3, 5, 0.5), rgba(35, 38, 49, 0.65), rgba(35, 38, 49, 0.55));">
 			<div class="left" style="background-color: #5B0C0D;">
 				<i class="fa-solid fa-trash" style="color: #F45F61;"></i>
 			</div>
@@ -43,7 +44,7 @@
 				<p>The document was successfully deleted</p>
 			</div>
 			<div class="right">
-				<i class="fa-solid fa-xmark"></i>
+				<i class="fa-solid fa-xmark" data-id="3"></i>
 			</div>
 		</div>
 	</body>

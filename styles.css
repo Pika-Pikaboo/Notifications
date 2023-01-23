@@ -69,3 +69,11 @@ body {
 .left>.fa-check {
 	color: #29BA8B;
 }
+
+.right>.fa-xmark:hover {
+	cursor: pointer;
+}
+
+.right>.fa-xmark:active {
+	color: aqua;
+}
